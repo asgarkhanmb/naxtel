@@ -1,0 +1,159 @@
+.header-up{
+    width: 100%;
+    height: 40px;
+    background-color: #ff9100;
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style: none;
+    padding-left: 5px;
+}
+.navbar ul a{
+    text-decoration:  none;
+    color: white;
+}
+.nav-bar-right {
+    display: flex;
+    justify-content: right;
+    padding-top: 5px;
+}
+.nav-bar-right li{
+    list-style: none;
+
+}
+
+.nav-bar-right a{
+    text-decoration:  none;
+    color: white;
+}
+
+.logo-img{
+    width: 108px;
+    height: 60px;
+    
+}
+.logo-img img{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+}
+.header-down{
+    width: 100%;
+    height: 120px;
+    align-items: center;
+}
+.down-nav{
+    width: 100%;
+}
+.down-nav ul{
+    display: flex;
+    margin-top: 40px;
+    width: 100%;
+}
+.down-nav ul li{
+    list-style: none;
+    padding-left: 18px;
+}
+.down-nav ul li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: rgba(99, 97, 97, 0.733);
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bars{
+    display: none;
+}
+.search{
+    margin-top: 40px;
+    display: flex;
+    justify-content: right;
+}
+
+#main-image {
+    padding: 30px 0px;
+    position: relative;
+    box-sizing: content-box;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    flex-flow: column;
+    
+}
+#main-text {
+    color: #727272;
+    text-align: center;
+    font-family: Varela Round;
+    font-size: 40px;
+    font-style: normal;
+}
+.cards-boxes{
+    width: 100%;
+    margin-top: 20px;
+}
+.card-name h2{
+  color: rgba(78, 76, 76, 0.712);
+  text-align: center;
+ 
+}
+.card-box1{
+    margin-top: 100px;
+    width: 360px;
+    height: 460px;
+    background-image: url(../images/Avantaj-10_2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.card-box2{
+    margin-top: 100px;
+    width: 360px;
+    height: 460px;
+    background-image: url(../images/Avantaj-15_2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.card-box3{
+    margin-top: 100px;
+    width: 360px;
+    height: 460px;
+    background-image: url(../images/Avantaj-25_2.jpg);
+    background-size: cover;
+    border-radius: 10px;
+}
+.footer-section{
+    background-color: #3c98a7;
+    padding-top: 50px;
+}
+.footer-box h5,p{
+ color: white;
+}
+.text-box{
+    width: 500px;
+    height: 280px;
+    box-sizing: border-box;
+    overflow-y: hidden;
+}
+#naxtel-text{
+    background-color: rgba(219, 218, 218, 0.671);
+    overflow-x: hidden;
+    margin-top: 10px;
+}
+.naxtel-text-box h1{
+    margin-top: 40px;
+    color: gray;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 60px;
+    
+    
+}
+.naxtel-text-box h4{
+    color: gray; 
+}
